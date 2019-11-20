@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Raleway:400,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="signup.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Acme|Oswald:400,600" rel="stylesheet">
+</head>
+<body>
+<!-- nav bar  -->
+<nav class="navbar navbar-inverse">
+  
+       <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./index.html">ESSAY<span class="glyphicon glyphicon-grain" aria-hidden="true"></span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-nav-demo">
+       <ul class="nav navbar-nav">
+         <li><a href="./index.html">Home</a></li>
+         <li><a href="./about.html">About</a></li>
+         <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./signup.html">Signup <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+          <li><a href="./login.html">Login <i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+         </ul>
+     </div>
+</nav>
+<!-- nav bar  -->
+
+
+<!-- body -->
+<div class="container">
+
+<h1 id="heading"><strong>Signup</strong></h1>
+
+<div class="fieldsetMenu" >
+     <form id="mForm" action="signup.php" method="post">
+	<fieldset>
+
+	<li><label  for="first name">Firstname:</label>     
+	<input class="font" type="text"  name=" firstname"  id=" FIRST NAME " placeholder= "firstname" required></li>
+	<li><label  for="last name">Lastname:</label>
+    <input class="font" type="text"  name=" lastname"  id="LAST NAME"placeholder= "Lastname" required ></li>
+     <li><label  for="email">Email Address:</label>   
+	<input class="font" type="email"  name="email"  id="EMAIL ADRESS" placeholder= "Ex:pesuniversity.edu" required></li>
+    <li><label  for="last name">Username:</label>
+    <input class="font" type="text"  name="username"  id="username" placeholder= "Username" required></li	>
+   <li><label  for="gender">Gender:</label> 
+     <select id="gender" name="gender" size="1">	
+	 <option class="font">Male</option> 
+	<option class="font">Female</option> </select></li>
+	<li><label>Birthday:</label>
+	 <input class="font" type="text"  name="dob"  id="DOB" placeholder= "(yyyy/mm/dd)" required ></li>
+	
+	<li><label  for="new password">Password:</label>   
+	<input class="font" type="text"  name="password"  id="password" placeholder= "Create password" pattern=.{5,10} required title="Password must be between 5 to 10 characters"></li>
+	   
+    <input  type="Submit"  value="Submit"></fieldset>  
+	
+	
+	</form>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

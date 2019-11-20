@@ -1,0 +1,227 @@
+.home-page {
+        margin: 0 10% 0 10%;
+    }
+    
+    .pre-header-img {
+        width: 100%;
+    }
+
+    .location-section {
+        padding: 10px;
+        background: #ccc;
+    }
+    
+    .helpdesk-img {
+        margin-top: -41px;
+    }
+    
+    .footer-bg {
+        width: 100%;
+        padding: 10px 0px;
+        background: #333333;
+    }
+    
+    .footernav {
+        list-style: none;
+        padding: 6px 0px 26px 0px;
+    }
+
+    .footer-items {
+        margin-left: 33%;
+    }
+    
+    .footernav li {
+        float: left;
+    }
+    
+    .footernav li a {
+        color: #fff;
+        padding: 0px 10px;
+        border-right: 1px  #fff;
+    }
+    .fieldsetMenu{
+		        background-image:url(http://sfwallpaper.com/images/dark-themed-wallpapers-29.jpg);
+
+	}
+    .menu {
+        width: 100%;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        float: left;
+        vertical-align: middle;
+        background: "color:#000033";
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        color: White;
+        line-height: 15pt;
+        height: 30px;
+        background-color: #000033;
+        margin-bottom: 10px;
+    }
+    
+    .menu ul li a {
+        display: inherit;
+        margin: 0;
+        padding: 0px 10px 0px 10px;
+        color: #FFFFFF;
+        font: normal 11px Helvetica;
+        text-decoration: none;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    .menu ul li {
+        display: inline;
+        margin: 0;
+        padding: 7px 7px 8px 3px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 2px #B7B7B7;
+        background-image: url(../images/orng-brk.gif);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .menu ul li:last-child {
+        background-image: none;
+    }
+    
+    .menu ul {
+        list-style: none;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 0px;
+    }
+    .about-section {
+        background: #efeded;
+        padding: 135px;
+    }
+    footer {
+    margin:0px 0; background:#018fcf; border-top:5px solid #00a0dc;
+    }
+    ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+    .text-center {
+    text-align: center
+    }
+    .row {
+    margin-right: -5px;
+    margin-left: -5px
+    }
+    footer {
+    margin:0px 0; background:#018fcf; border-top:5px solid #00a0dc;
+    }
+    .about-section {
+        background: #efeded;
+        padding: 135px;
+    }
+    .image-section {
+        padding: 10px;
+        background: #ccc;
+    }
+    
+    .announcements-panel {
+        border: 1px solid #00A0DC;
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        display: inline-block;
+        width: 199px;
+    }
+
+    .panel-heading {
+        background: #D75815;
+        margin-left: -10px;
+        color: white;
+        padding: 10px;
+    }
+
+    .panel-news {
+        height: 345px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .list-aggregate li {
+        border-bottom: 1px dashed #666;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    
+    .list-aggregate {
+        list-style: none;
+        margin: 0px;
+        padding: 6px 15px;
+        list-style-position: inside;
+    }
+    
+    .location-section {
+        padding: 10px;
+        background: #ccc;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #D75815;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .gallaery-image {
+        width: 360px;
+    }
+    .menu-section {
+        margin-left: 6%;
+    }
+    input {
+        width: 365px;
+        padding: 5px;
+    }
+    button {
+        padding: 10px 15px 10px 15px;
+        background: #D75815;
+        color: white;
+    }
+    fieldset {
+        width: 500px;
+        display: inline-block;
+    }
+    .contact-main-section {
+        background: #efeded;
+        padding: 75px;
+    }
+    .contact-section {
+        display: inline-block;
+        position: absolute;
+        padding-left: 50px;
+    }
+    .contact-details {
+        color: #D75815;
+    }
+    form {
+        display: inline-block;
+    }
+    
+    
+    
+    
+    
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
